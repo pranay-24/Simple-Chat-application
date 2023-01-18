@@ -10,6 +10,12 @@ body{
     height:100vh;
 }
 
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container{
     max-width:955px;
     /* background-color: grey; */
@@ -22,7 +28,7 @@ body{
 }
 
 .message{
-background-color: greenyellow;
+background-color: rgb(215, 238, 181);
 width:24%;
 padding:10px;
 margin:17px 12px;
@@ -59,4 +65,5 @@ margin:auto;
     cursor:pointer;
     border:2px solid black;
     border-radius: 5px;
+  width:6%;
 }
